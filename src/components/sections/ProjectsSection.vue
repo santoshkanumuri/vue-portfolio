@@ -211,6 +211,20 @@ const previousImage = () => {
 
 // Projects data
 const projects = ref([
+{
+    id: 0,
+    title: 'Token Visualizer',
+    description: 'A web application that allows users to visualize the distribution of tokens in a given text. Displays tokens in the text and allows to estimate the cost of the text.',
+    image: '/images/projects/token-visualizer.png',
+    images: [
+      '/images/projects/token-visualizer.png'
+    ],
+    category: 'Web Development',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React',],
+    demoUrl: 'https://santoshkanumuri.github.io/token-visualizer/',
+    githubUrl: 'https://github.com/santoshkanumuri/token-visualizer',
+    featured: true
+  },
   {
     id: 1,
     title: 'RaiderChat: AI-Powered Chatbot',
