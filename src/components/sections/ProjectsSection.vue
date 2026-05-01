@@ -74,7 +74,7 @@
             <div class="relative h-64 sm:h-80 mb-4 bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden">
               <div class="relative h-full w-full">
                 <img
-                  v-if="!currentImageFailed"
+                  v-if="currentImage && !currentImageFailed"
                   :src="currentImage"
                   :alt="selectedProject.title"
                   class="absolute top-1/2 left-1/2 max-w-full max-h-full object-contain -translate-x-1/2 -translate-y-1/2"
@@ -206,7 +206,7 @@ const currentImage = computed(() => {
   if (selectedProject.value?.images && selectedProject.value.images.length > 0) {
     return selectedProject.value.images[currentImageIndex.value];
   }
-  return selectedProject.value?.image || '/images/projects/project-placeholder.jpg';
+  return selectedProject.value?.image || '';
 });
 
 const nextImage = () => {
@@ -259,10 +259,8 @@ const projects = ref([
     id: 2,
     title: 'Alzheimer MRI Classification - Zero-Shot VLM',
     description: 'Vision-language model system using the ZLaP label propagation zero-shot technique to classify Alzheimer MRI stages including non-demented, very mild, mild, and moderate without task-specific labeled training data.',
-    image: '/images/projects/raiderchat.png',
-    images: [
-      '/images/projects/raiderchat.png'
-    ],
+    image: '',
+    images: [],
     category: 'AI/ML',
     technologies: ['Vision-Language Models', 'Zero-Shot Learning', 'ZLaP', 'Medical Imaging', 'PyTorch'],
     demoUrl: '',

@@ -94,7 +94,15 @@ const getLogoUrl = () => {
     'pinecone' : 'https://pbs.twimg.com/profile_images/1676450951874453505/y5_T5OWH_400x400.png',
     'langchain' : 'https://agile-systems.de/wp-content/uploads/2024/03/LangChain-Logo-300x300.png',
     'openai': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/openai.svg',
-    'streamlit': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/streamlit.svg'
+    'streamlit': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/streamlit.svg',
+    'chroma': 'https://avatars.githubusercontent.com/u/108510133?s=200&v=4',
+    'cicd': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/githubactions.svg',
+    'llama': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/meta.svg',
+    'rag': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/readthedocs.svg',
+    'mcp': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/protocolsdotio.svg',
+    'ocr': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googledocs.svg',
+    'nlp': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/spacy.svg',
+    'cv': 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/opencv.svg'
   };
 
   return logoMap[props.icon.toLowerCase()] || null;

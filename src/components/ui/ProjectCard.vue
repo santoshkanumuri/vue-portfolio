@@ -4,7 +4,7 @@
       <!-- Project image -->
       <div class="relative overflow-hidden h-48 bg-gray-100 dark:bg-gray-800">
         <img
-          v-if="!imageFailed"
+          v-if="project.image && !imageFailed"
           :src="project.image"
           :alt="project.title"
           class="absolute top-1/2 left-1/2 max-w-full max-h-full object-contain -translate-x-1/2 -translate-y-1/2"
