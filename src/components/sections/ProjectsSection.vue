@@ -189,7 +189,7 @@ import ProjectCard from '../ui/ProjectCard.vue';
 gsap.registerPlugin(ScrollTrigger);
 
 // Project filters
-const filters = ['All', 'Enterprise AI', 'Web Development', 'AI/ML', 'Data Science', 'Automation', 'Simple Frontend'];
+const filters = ['All', 'Web Development', 'AI/ML', 'Data Science', 'Automation', 'Simple Frontend'];
 const activeFilter = ref('All');
 
 // Selected project for modal
@@ -226,68 +226,6 @@ const previousImage = () => {
 // Projects data
 const projects = ref([
   {
-    id: 101,
-    title: 'ASK_RAIDER - Conversational AI Platform',
-    description: 'University-wide conversational AI platform built on Retrieval-Augmented Generation with LLM inference and MCP-based data integrations across operating policies, system regulations, dining services, and IT knowledge bases. Designed to resolve Tier-1 support questions autonomously with escalation routing for complex requests.',
-    image: '/images/projects/raiderchat.png',
-    images: [
-      '/images/projects/raiderchat.png',
-      '/images/projects/raiderchat-1.png',
-      '/images/projects/raiderchat-2.png'
-    ],
-    category: 'Enterprise AI',
-    technologies: ['Python', 'FastAPI', 'NextJS', 'LangChain', 'RAG', 'MCP', 'LLMs', 'PostgreSQL'],
-    featured: true
-  },
-  {
-    id: 102,
-    title: 'Campus Operational Monitoring',
-    description: 'Real-time operational monitoring and visualization application integrating live ServiceNow ITSM feeds for classroom AV systems, digital signage, networked printers, and dining facilities. The map-driven workflow helps IT, facilities, and operations teams locate working resources quickly and reduce issue resolution time.',
-    image: '/images/projects/service-connect.png',
-    images: [
-      '/images/projects/service-connect.png'
-    ],
-    category: 'Enterprise AI',
-    technologies: ['ServiceNow API', 'FastAPI', 'NextJS', 'AWS', 'PostgreSQL', 'REST APIs'],
-    featured: true
-  },
-  {
-    id: 103,
-    title: 'Accessibility & VPAT Compliance Platform',
-    description: 'Full-suite accessibility compliance platform for automated WCAG 2.1 audits, centralized issue dashboards, standardized remediation workflows, and VPAT report generation using LLM agents with secure in-house model inference across 20+ university digital properties.',
-    image: '/images/projects/youtube-analyzer.png',
-    images: [
-      '/images/projects/youtube-analyzer.png'
-    ],
-    category: 'Enterprise AI',
-    technologies: ['WCAG 2.1', 'VPAT', 'LLM Agents', 'OCR', 'FastAPI', 'Docker', 'Kubernetes'],
-    featured: true
-  },
-  {
-    id: 104,
-    title: 'PDF Remediation Pipeline',
-    description: 'Production-grade PDF remediation service using large language models and OCR for native digital and scanned documents. Includes batch-processing pipelines, a self-service web portal, and full audit logging, replacing external vendor dependencies while reducing per-document remediation cost by 90%.',
-    image: '/images/projects/coursesync.png',
-    images: [
-      '/images/projects/coursesync.png'
-    ],
-    category: 'Enterprise AI',
-    technologies: ['LLMs', 'OCR', 'FastAPI', 'Batch Processing', 'Audit Logging', 'Docker'],
-    featured: true
-  },
-  {
-    id: 105,
-    title: 'Syllabus Compliance Workflow Automation',
-    description: 'LLM-powered syllabus compliance verification system that validates course syllabi against state legislative requirements and university academic policy, flags non-compliant content with actionable guidance, and routes documents through a structured approval pipeline.',
-    image: '/images/projects/leetquotes.jpg',
-    images: [
-      '/images/projects/leetquotes.jpg'
-    ],
-    category: 'Enterprise AI',
-    technologies: ['LLMs', 'AI Agents', 'Workflow Automation', 'Policy Validation', 'FastAPI'],
-    featured: true
-  },
-  {
     id: 0,
     title: 'Token Visualizer',
     description: 'A web application that allows users to visualize the distribution of tokens in a given text. Displays tokens in the text and allows to estimate the cost of the text.',
@@ -303,8 +241,8 @@ const projects = ref([
   },
   {
     id: 1,
-    title: 'ASK_RAIDER - TTU Institutional AI Chatbot',
-    description: 'Production RAG-based chatbot prototype using LangChain, Chroma, LLM inference, and MCP integrations to deliver semantic retrieval across Texas Tech institutional documents. It became the foundation for the enterprise ASK_RAIDER platform covering operating policies, IT knowledge base content, and student services.',
+    title: 'RaiderChat: AI-Powered Chatbot',
+    description: 'Standalone chained chatbot project that uses Retrieval Augmented Generation (RAG) to provide accurate, context-aware responses from selected Texas Tech University documents. It maintains conversation context, references previous messages, and answers only from the supplied academic and administrative sources.',
     image: '/images/projects/raiderchat.png',
     images: [
       '/images/projects/raiderchat.png',
@@ -312,7 +250,7 @@ const projects = ref([
       '/images/projects/raiderchat-2.png'
     ],
     category: 'AI/ML',
-    technologies: ['LangChain', 'Chroma', 'LLM Agents', 'RAG', 'MCP', 'Vector Database'],
+    technologies: ['Streamlit', 'LLM Agents', 'RAG', 'Vector Database', 'LangChain'],
     demoUrl: '',
     githubUrl: 'https://github.com/santoshkanumuri/rag-chatbot',
     featured: true

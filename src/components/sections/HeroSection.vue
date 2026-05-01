@@ -54,30 +54,6 @@
                     alt="Medium" class="h-8 w-8 dark:invert" />
               </a>
             </div>
-
-            <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
-              <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-md border border-primary/10">
-                <p class="text-2xl font-bold text-primary">90%</p>
-                <p class="text-sm text-gray-600 dark:text-gray-300">PDF remediation cost reduction</p>
-              </div>
-              <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-md border border-primary/10">
-                <p class="text-2xl font-bold text-primary">20+</p>
-                <p class="text-sm text-gray-600 dark:text-gray-300">Digital properties in compliance workflows</p>
-              </div>
-              <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-md border border-primary/10">
-                <p class="text-2xl font-bold text-primary">35K+</p>
-                <p class="text-sm text-gray-600 dark:text-gray-300">Artworks processed with vector search</p>
-              </div>
-            </div>
-
-            <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow-md border border-primary/10">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Current Focus</h3>
-              <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
-                I lead full-stack AI application architecture for enterprise university systems, including
-                conversational AI, ServiceNow-powered operational monitoring, accessibility compliance,
-                OCR document remediation, and legislative workflow automation.
-              </p>
-            </div>
           </div>
         </div>
 
