@@ -4,10 +4,20 @@
       <!-- Project image -->
       <div class="relative overflow-hidden h-48 bg-gray-100 dark:bg-gray-800">
         <img
+          v-if="!imageFailed"
           :src="project.image"
           :alt="project.title"
           class="absolute top-1/2 left-1/2 max-w-full max-h-full object-contain -translate-x-1/2 -translate-y-1/2"
+          @error="imageFailed = true"
         >
+        <div
+          v-else
+          class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/15 to-accent/15 dark:from-primary/25 dark:to-accent/25"
+        >
+          <span class="text-5xl font-bold text-primary dark:text-primary-light">
+            {{ projectInitial }}
+          </span>
+        </div>
         <!-- Featured badge -->
         <div v-if="project.featured" class="absolute top-0 right-0 bg-primary text-text dark:text-text-dark text-xs font-bold px-2 py-1">
           Featured
@@ -80,7 +90,7 @@
 </template>
 
 <script setup>
-import { computed, defineProps, defineEmits } from 'vue';
+import { computed, defineProps, defineEmits, ref, watch } from 'vue';
 
 const props = defineProps({
   project: {
@@ -91,9 +101,22 @@ const props = defineProps({
 
 defineEmits(['click']);
 
+const imageFailed = ref(false);
+
+watch(
+  () => props.project.image,
+  () => {
+    imageFailed.value = false;
+  }
+);
+
 // Limit technologies to first 3 for display
 const limitedTechnologies = computed(() => {
   return props.project.technologies.slice(0, 3);
+});
+
+const projectInitial = computed(() => {
+  return props.project.title?.trim().charAt(0).toUpperCase() || '?';
 });
 </script>
 

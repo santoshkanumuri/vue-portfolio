@@ -74,10 +74,21 @@
             <div class="relative h-64 sm:h-80 mb-4 bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden">
               <div class="relative h-full w-full">
                 <img
+                  v-if="!currentImageFailed"
                   :src="currentImage"
                   :alt="selectedProject.title"
                   class="absolute top-1/2 left-1/2 max-w-full max-h-full object-contain -translate-x-1/2 -translate-y-1/2"
+                  @error="currentImageFailed = true"
+                  @load="currentImageFailed = false"
                 >
+                <div
+                  v-else
+                  class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/15 to-accent/15 dark:from-primary/25 dark:to-accent/25"
+                >
+                  <span class="text-6xl font-bold text-primary dark:text-primary-light">
+                    {{ selectedProject.title?.trim().charAt(0).toUpperCase() || '?' }}
+                  </span>
+                </div>
                 <!-- Navigation arrows -->
                 <div v-if="hasMultipleImages" class="absolute inset-0 flex items-center justify-between px-4">
                   <button
@@ -184,6 +195,7 @@ const activeFilter = ref('All');
 // Selected project for modal
 const selectedProject = ref(null);
 const currentImageIndex = ref(0);
+const currentImageFailed = ref(false);
 
 // Image carousel logic
 const hasMultipleImages = computed(() => {
@@ -200,12 +212,14 @@ const currentImage = computed(() => {
 const nextImage = () => {
   if (selectedProject.value?.images) {
     currentImageIndex.value = (currentImageIndex.value + 1) % selectedProject.value.images.length;
+    currentImageFailed.value = false;
   }
 };
 
 const previousImage = () => {
   if (selectedProject.value?.images) {
     currentImageIndex.value = (currentImageIndex.value - 1 + selectedProject.value.images.length) % selectedProject.value.images.length;
+    currentImageFailed.value = false;
   }
 };
 
@@ -503,6 +517,7 @@ const filteredProjects = computed(() => {
 const openProjectDetails = (project) => {
   selectedProject.value = project;
   currentImageIndex.value = 0; // Reset image index when opening modal
+  currentImageFailed.value = false;
 };
 
 onMounted(() => {
