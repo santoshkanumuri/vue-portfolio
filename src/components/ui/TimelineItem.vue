@@ -24,7 +24,7 @@
             <ul class="space-y-1.5 sm:space-y-2">
               <li v-for="(item, index) in responsibilities" :key="index"
                   class="text-xs sm:text-sm text-gray-700 dark:text-gray-300 leading-relaxed flex items-start">
-                <span class="text-primary dark:text-primary-light mr-1.5 sm:mr-2 flex-shrink-0 mt-1">•</span>
+                <span class="text-primary dark:text-primary-light mr-1.5 sm:mr-2 flex-shrink-0 mt-1">&bull;</span>
                 <span>{{ item }}</span>
               </li>
             </ul>

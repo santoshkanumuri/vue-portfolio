@@ -55,43 +55,28 @@
               </a>
             </div>
 
-            <!-- Resume Section -->
-            <div class="mt-8 bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300">
-              <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <!-- Resume Info -->
-                <div class="flex-1">
-                  <div class="flex items-center gap-4 mb-4">
-                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Professional Resume</h3>
-                      <p class="text-gray-600 dark:text-gray-400">Last updated: May 2026</p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Download Button -->
-                <div class="flex flex-col items-center gap-4">
-                  <a
-                    href="/upload/santosh_kanumuri_resume.pdf"
-                    download
-                    class="group relative inline-flex items-center justify-center px-6 py-3 font-bold text-white transition-all duration-300 ease-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
-                  >
-                    <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-1 translate-y-1 bg-primary group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-                    <span class="absolute inset-0 w-full h-full bg-primary border-2 border-primary group-hover:bg-primary-dark"></span>
-                    <span class="relative flex items-center gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                      </svg>
-                      Download Resume
-                    </span>
-                  </a>
-                  <p class="text-sm text-gray-600 dark:text-gray-400">PDF Format - 2 Pages</p>
-                </div>
+            <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+              <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-md border border-primary/10">
+                <p class="text-2xl font-bold text-primary">90%</p>
+                <p class="text-sm text-gray-600 dark:text-gray-300">PDF remediation cost reduction</p>
               </div>
+              <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-md border border-primary/10">
+                <p class="text-2xl font-bold text-primary">20+</p>
+                <p class="text-sm text-gray-600 dark:text-gray-300">Digital properties in compliance workflows</p>
+              </div>
+              <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-md border border-primary/10">
+                <p class="text-2xl font-bold text-primary">35K+</p>
+                <p class="text-sm text-gray-600 dark:text-gray-300">Artworks processed with vector search</p>
+              </div>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow-md border border-primary/10">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Current Focus</h3>
+              <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                I lead full-stack AI application architecture for enterprise university systems, including
+                conversational AI, ServiceNow-powered operational monitoring, accessibility compliance,
+                OCR document remediation, and legislative workflow automation.
+              </p>
             </div>
           </div>
         </div>
