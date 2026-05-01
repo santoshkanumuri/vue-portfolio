@@ -15,16 +15,15 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="order-2 lg:order-1 space-y-8">
           <div class="space-y-4">
-            <h3 class="text-2xl font-semibold text-primary dark:text-primary-light">Full Stack Developer & Data Enthusiast</h3>
+            <h3 class="text-2xl font-semibold text-primary dark:text-primary-light">Full Stack & AI Engineer</h3>
             <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm a full-stack developer with a strong foundation in backend development, cloud technologies,
-              and GenAI applications.
-              I specialize in building scalable, high-performance applications using Python, FastAPI, and Django,
-              and have hands-on experience with AWS, SQL, and MongoDB to streamline cloud deployments and support data-driven decision-making.
+              I'm a Programmer Analyst and Full Stack AI Engineer focused on enterprise-grade AI applications,
+              RAG systems, accessibility automation, and cloud-native backend platforms.
+              I build production systems with Python, FastAPI, NextJS, LangChain, MCP integrations, Docker, Kubernetes, AWS, and PostgreSQL.
             </p>
             <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-              I also build AI-powered applications using tools like LangChain, OpenAI APIs, and vector databases,
-              focusing on real-world use cases such as retrieval-augmented generation (RAG), document Q&A systems, and intelligent assistants.
+              My recent work includes university-wide conversational AI, ServiceNow-powered operational monitoring,
+              WCAG 2.1 and VPAT compliance automation, OCR-backed PDF remediation, and LLM-driven document workflow systems.
             </p>
 
           </div>
@@ -39,8 +38,8 @@
                 <div>
                   <h5 class="font-medium text-gray-900 dark:text-white">Texas Tech University</h5>
                   <p class="text-gray-600 dark:text-gray-300">Master of Science in Computer Science</p>
-                  <p class="text-gray-500 dark:text-gray-400 text-sm">July 2023 - May 2025</p>
-                  <p class="text-gray-500 dark:text-gray-400 text-sm">CGPA: 3.85/4.00</p>
+                  <p class="text-gray-500 dark:text-gray-400 text-sm">Aug 2023 - May 2025</p>
+                  <p class="text-gray-500 dark:text-gray-400 text-sm">GPA: 3.85/4.00</p>
 
                 </div>
               </div>
@@ -333,7 +332,7 @@ const handleSend = async () => {
           <a href="tel:8067021121" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">
             <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor' style='width: 28px; height: 28px; color: #ff6b00;'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z'/></svg>
           </a>
-          <a href="mailto:santosh.kanumuri@hotmail.com" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">
+          <a href="mailto:santoshkanumuri@gmail.com" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">
             <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor' style='width: 28px; height: 28px; color: #ff6b00;'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'/></svg>
           </a>
           <a href="https://linkedin.com/in/santoshkanumuri" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">
@@ -402,7 +401,7 @@ const handleSend = async () => {
             <a href="tel:8067021121" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor' style='width: 28px; height: 28px; color: #ff6b00;'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z'/></svg>
             </a>
-            <a href="mailto:santosh.kanumuri@hotmail.com" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">
+            <a href="mailto:santoshkanumuri@gmail.com" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor' style='width: 28px; height: 28px; color: #ff6b00;'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'/></svg>
             </a>
             <a href="https://linkedin.com/in/santoshkanumuri" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: #f3f4f6; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s;">

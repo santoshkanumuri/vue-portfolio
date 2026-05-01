@@ -34,7 +34,9 @@
             <SkillLogo name="JavaScript" icon="javascript" level="Advanced" />
             <SkillLogo name="TypeScript" icon="typescript" level="Intermediate" />
             <SkillLogo name="C" icon="c" level="Intermediate" />
-            <SkillLogo name="HTML/CSS" icon="html" level="Advanced" />
+            <SkillLogo name="SQL" icon="postgresql" level="Advanced" />
+            <SkillLogo name="Bash" icon="bash" level="Intermediate" />
+            <SkillLogo name="NodeJS" icon="nodejs" level="Intermediate" />
           </div>
         </div>
 
@@ -44,10 +46,12 @@
           <div class="grid grid-cols-2 gap-y-8 gap-x-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 sm:gap-y-10 sm:gap-x-6">
             <SkillLogo name="Django" icon="django" level="Advanced" />
             <SkillLogo name="FastAPI" icon="fastapi" level="Advanced" />
-            <SkillLogo name="Spring" icon="spring" level="Intermediate" />
+            <SkillLogo name="Flask" icon="flask" level="Advanced" />
             <SkillLogo name="React" icon="react" level="Advanced" />
             <SkillLogo name="NextJS" icon="nextjs" level="Intermediate" />
-            <SkillLogo name="Vue.js" icon="vue" level="Intermediate" />
+            <SkillLogo name="LangChain" icon="langchain" level="Advanced" />
+            <SkillLogo name="Pydantic" icon="pydanticai" level="Advanced" />
+            <SkillLogo name="Streamlit" icon="streamlit" level="Advanced" />
           </div>
         </div>
 
@@ -59,6 +63,8 @@
             <SkillLogo name="PostgreSQL" icon="postgresql" level="Advanced" />
             <SkillLogo name="Pinecone" icon="pinecone" level="Intermediate" />
             <SkillLogo name="DynamoDB" icon="dynamodb" level="Intermediate" />
+            <SkillLogo name="Amazon Aurora" icon="aws" level="Intermediate" />
+            <SkillLogo name="Chroma" icon="chroma" level="Intermediate" />
           </div>
         </div>
 
@@ -68,8 +74,10 @@
           <div class="grid grid-cols-2 gap-y-8 gap-x-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 sm:gap-y-10 sm:gap-x-6">
             <SkillLogo name="AWS" icon="aws" level="Advanced" />
             <SkillLogo name="Docker" icon="docker" level="Intermediate" />
+            <SkillLogo name="Podman" icon="podman" level="Intermediate" />
+            <SkillLogo name="Kubernetes" icon="kubernetes" level="Intermediate" />
             <SkillLogo name="Git" icon="git" level="Advanced" />
-            <SkillLogo name="Heroku" icon="heroku" level="Intermediate" />
+            <SkillLogo name="CI/CD" icon="cicd" level="Intermediate" />
             <SkillLogo name="Linux" icon="linux" level="Intermediate" />
           </div>
         </div>
@@ -78,11 +86,14 @@
         <div class="skill-category">
           <h4 class="text-lg sm:text-xl font-semibold mb-8 text-center text-primary dark:text-primary-light">AI & Machine Learning</h4>
           <div class="grid grid-cols-2 gap-y-8 gap-x-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 sm:gap-y-10 sm:gap-x-6">
-            <SkillLogo name="Langchain" icon="langchain" level="Advanced" />
-            <SkillLogo name="PydanticAI" icon="pydanticai" level="Advanced" />
+            <SkillLogo name="OpenAI" icon="openai" level="Advanced" />
+            <SkillLogo name="Llama" icon="llama" level="Advanced" />
             <SkillLogo name="Ollama" icon="ollama" level="Advanced" />
-            <SkillLogo name="PyTorch" icon="pytorch" level="Intermediate" />
-            <SkillLogo name="Selenium" icon="selenium" level="Advanced" />
+            <SkillLogo name="RAG" icon="rag" level="Advanced" />
+            <SkillLogo name="MCP" icon="mcp" level="Advanced" />
+            <SkillLogo name="OCR" icon="ocr" level="Advanced" />
+            <SkillLogo name="NLP" icon="nlp" level="Advanced" />
+            <SkillLogo name="Computer Vision" icon="cv" level="Intermediate" />
           </div>
         </div>
       </div>

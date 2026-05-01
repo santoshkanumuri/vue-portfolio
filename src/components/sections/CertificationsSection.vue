@@ -50,7 +50,7 @@ gsap.registerPlugin(ScrollTrigger);
 const certifications = ref([
 
   {
-    name: 'Google Cybersecurity Professional Certificate V2',
+    name: 'Google Cybersecurity Professional Certificate',
     issuer: 'Google',
     date: 'April 2025',
     url: 'https://www.credly.com/badges/1531d9de-a0ff-46be-be8e-53ef58ae5b40',
@@ -58,7 +58,7 @@ const certifications = ref([
     companylogo: 'https://pngimg.com/uploads/google/google_PNG19635.png'
     },
   {
-    name: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+    name: 'AWS Certified Cloud Architect',
     issuer: 'Amazon Web Services',
     date: 'December 2021',
     url: 'https://www.credly.com/badges/c1d41a52-4fa9-4c50-a0a1-1042b9f2d8f7/',
@@ -66,7 +66,7 @@ const certifications = ref([
     companylogo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg'
   },
   {
-    name: 'MongoDB Associate Developer',
+    name: 'MongoDB Certified Associate Developer',
     issuer: 'MongoDB',
     date: 'October 2024',
     url: 'https://www.credly.com/badges/6e513dad-e9f0-4ed9-a6ec-4d82a243d439/',

@@ -12,7 +12,7 @@
           <div class="space-y-4 sm:space-y-6">
             <div class="inline-block">
               <span class="px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium bg-primary/10 text-primary dark:bg-primary/20">
-                Full Stack Developer & Applied AI Engineer
+                Programmer Analyst | Full Stack & AI Engineer
               </span>
             </div>
 
@@ -21,8 +21,8 @@
             </h1>
 
             <p class="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-xl leading-relaxed">
-              Building scalable backend systems and AI-powered tools using Python, FastAPI, and AWS.
-              Experienced in cloud deployments, data analytics, and crafting maintainable, high-performance applications.
+              Building enterprise-grade AI applications, RAG platforms, and full-stack systems with Python,
+              FastAPI, NextJS, LangChain, MCP integrations, and AWS.
             </p>
 
             <div class="flex flex-wrap gap-6">
@@ -34,7 +34,7 @@
               </a>
 
               <!-- LinkedIn -->
-              <a href="https://www.linkedin.com/in/santosh-kanumuri/" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/santoshkanumuri" target="_blank" rel="noopener noreferrer"
                 class="transform hover:scale-110 transition duration-300">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                     alt="LinkedIn" class="h-8 w-8" />
@@ -68,7 +68,7 @@
                     </div>
                     <div>
                       <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Professional Resume</h3>
-                      <p class="text-gray-600 dark:text-gray-400">Last updated: May 2025</p>
+                      <p class="text-gray-600 dark:text-gray-400">Last updated: May 2026</p>
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@
                 <!-- Download Button -->
                 <div class="flex flex-col items-center gap-4">
                   <a
-                    href="https://github.com/santoshkanumuri/santoshkanumuri/blob/main/two_page.pdf"
+                    href="/upload/santosh_kanumuri_resume.pdf"
                     download
                     class="group relative inline-flex items-center justify-center px-6 py-3 font-bold text-white transition-all duration-300 ease-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
                   >
@@ -89,7 +89,7 @@
                       Download Resume
                     </span>
                   </a>
-                  <p class="text-sm text-gray-600 dark:text-gray-400">PDF Format • 2 Pages</p>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">PDF Format - 2 Pages</p>
                 </div>
               </div>
             </div>

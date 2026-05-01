@@ -227,8 +227,8 @@ const projects = ref([
   },
   {
     id: 1,
-    title: 'RaiderChat: AI-Powered Chatbot',
-    description: 'Intelligent chatbot using Retrieval Augmented Generation (RAG) architecture to provide accurate, context-aware responses based solely on official Texas Tech University documents. The chatbot maintains conversation awareness, allowing it to reference previous user messages, ask relevant follow-up questions, and ensure that all answers are grounded strictly in the specified academic and administrative sources.',
+    title: 'ASK_RAIDER - TTU Institutional AI Chatbot',
+    description: 'Production RAG-based chatbot prototype using LangChain, Chroma, LLM inference, and MCP integrations to deliver semantic retrieval across Texas Tech institutional documents. It became the foundation for the enterprise ASK_RAIDER platform covering operating policies, IT knowledge base content, and student services.',
     image: '/images/projects/raiderchat.png',
     images: [
       '/images/projects/raiderchat.png',
@@ -236,13 +236,26 @@ const projects = ref([
       '/images/projects/raiderchat-2.png'
     ],
     category: 'AI/ML',
-    technologies: ['Streamlit', 'LLM Agents', 'RAG', 'Vector Database', 'LangChain'],
+    technologies: ['LangChain', 'Chroma', 'LLM Agents', 'RAG', 'MCP', 'Vector Database'],
     demoUrl: '',
     githubUrl: 'https://github.com/santoshkanumuri/rag-chatbot',
     featured: true
   },
   {
     id: 2,
+    title: 'Alzheimer MRI Classification - Zero-Shot VLM',
+    description: 'Vision-language model system using the ZLaP label propagation zero-shot technique to classify Alzheimer MRI stages including non-demented, very mild, mild, and moderate without task-specific labeled training data.',
+    image: '/images/projects/raiderchat.png',
+    images: [
+      '/images/projects/raiderchat.png'
+    ],
+    category: 'AI/ML',
+    technologies: ['Vision-Language Models', 'Zero-Shot Learning', 'ZLaP', 'Medical Imaging', 'PyTorch'],
+    demoUrl: '',
+    featured: true
+  },
+  {
+    id: 13,
     title: 'YouTube Emotion Analyzer',
     description: 'Streamlit-based web application that searches YouTube for videos using keyword queries, extracts transcripts, and analyzes emotional trends within the content. Utilized the Gemini API for generating video summaries and extracting key insights.',
     image: '/images/projects/youtube-analyzer.png',
@@ -402,7 +415,7 @@ const projects = ref([
   {
     id: 11,
     title: 'Sudoku Solver',
-    description: 'A CNN-powered Sudoku solver using Python and Selenium that tackles puzzles through multiple modes—manual, image, website, and video—by recognizing and solving patterns with high-accuracy real-time prediction.',
+    description: 'A CNN-powered Sudoku solver using Python and Selenium that tackles puzzles through multiple modes - manual, image, website, and video - by recognizing and solving patterns with high-accuracy real-time prediction.',
     image: '/images/projects/sudoku-solver.png',
     images: [
       '/images/projects/sudoku-solver.png',

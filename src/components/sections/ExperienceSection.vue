@@ -14,25 +14,29 @@
             position="left"
             company="Texas Tech University"
             title="Programmer Analyst III (AI Engineer)"
-            period="June 2025 - Present"
+            period="May 2025 - Present"
             location="Lubbock, TX"
             :responsibilities="[
-              'Collaborated with the AI team to build an AI-powered applications to support internal and external users.',
+              'Serve as technical lead and primary contributor for full-stack enterprise AI applications, owning design, implementation, testing, production deployment, QA, and documentation.',
+              'Engineered ASK_RAIDER, a university-wide conversational AI platform using RAG and MCP-based data integrations across policies, regulations, dining services, and IT knowledge bases.',
+              'Built real-time operational monitoring and visualization tools integrating ServiceNow ITSM data for classroom AV systems, signage, printers, and dining facilities.',
+              'Architected WCAG 2.1 accessibility and VPAT compliance platforms with automated audits, centralized dashboards, LLM-assisted report generation, and secure in-house model inference.',
+              'Delivered PDF remediation and syllabus compliance pipelines using LLMs, OCR, batch processing, audit logging, and workflow automation, reducing remediation costs by 90%.'
               ]"
-            :technologies="['Python', 'FastAPI', 'NextJS', 'PostgreSQL', 'Azure AI', 'Podman', 'Azure DevOps', 'CI/CD', 'Langchain', 'PydanticAI', 'Ollama', 'PyTorch']"
+            :technologies="['Python', 'FastAPI', 'NextJS', 'LangChain', 'RAG', 'MCP', 'OpenAI', 'Llama', 'Ollama', 'OCR', 'Docker', 'Kubernetes', 'Helm', 'ServiceNow API', 'AWS', 'PostgreSQL', 'WCAG 2.1', 'AI Agents', 'REST APIs']"
           />
           <TimelineItem
             position="right"
             company="Texas Tech University"
             title="Graduate Assistant (Full Stack Developer)"
-            period="Aug 2023 - May 2025"
+            period="Sep 2023 - May 2025"
             location="Lubbock, TX"
             :responsibilities="[
-              'Developed an AI-powered art analytics platform with image similarity search (35K+ artworks) using FastAPI, Pinecone, and AWS.',
-              'Built intelligent agents for brand analysis (250K+ tweets), LinkedIn talent insights (Gemini API), and web search summarization (GPT).',
-              'Automated ETL pipelines from 3 auction houses and built an innovation detector using local LLMs for 1K+ company websites.'
+              'Engineered a computer vision art similarity search engine processing 35,000+ artworks with Pinecone vector embeddings, reaching 92% price-trend prediction accuracy and 70% faster retrieval.',
+              'Built ETL pipelines ingesting 1,000+ artworks monthly from 3 auction houses with cloud scheduling and failure alerting.',
+              'Developed multi-source AI search agents, local LLM innovation classifiers, LinkedIn profile analytics, and financial data warehouse workflows for high-throughput research and business intelligence.'
             ]"
-            :technologies="['Python', 'FastAPI', 'React', 'MongoDB', 'AWS', 'Docker', 'Git', 'CI/CD', 'Linux', 'Selenium', 'Langchain', 'PydanticAI', 'Ollama', 'PyTorch']"
+            :technologies="['Python', 'FastAPI', 'Flask', 'MongoDB', 'DynamoDB', 'AWS S3', 'AWS EC2', 'AWS ECS', 'AWS Lambda', 'AWS Step Functions', 'Docker', 'PyTorch', 'NLP', 'Computer Vision', 'Pinecone', 'OpenAI', 'Gemini API', 'ETL']"
           />
 
           <TimelineItem
@@ -42,7 +46,7 @@
             period="Jul 2022 - Jul 2023"
             location="Chennai, India"
             :responsibilities="[
-              'Developed CitiBank’s internal document tracking system with Django & React, improving loan processing by 40% and uptime to 99.8%.',
+              'Led full-stack development of CitiBank internal loan document tracking system with Django and React, improving loan processing by 40% and uptime to 99.8%.',
               'Designed microservices with PostgreSQL (Aurora), handling 3K+ daily requests; built role-based UI components reducing training time by 3 weeks.',
               'Containerized deployments with Docker across dev/staging/prod, reducing errors by 85%; integrated task tracking for better team coordination.',
               'Created a centralized feedback and assignment platform for streamlined project and client management.'
@@ -52,9 +56,9 @@
 
           <TimelineItem
             position="right"
-            company="Systema Automation, Inc."
-            title="Web Developer"
-            period="Jan 2022 - Jun 2022"
+            company="Systema Automation"
+            title="Python Developer Intern"
+            period="Jul 2021 - Jun 2022"
             location="Bangalore, India"
             :responsibilities="[
               'Built a responsive performance dashboard using Django and Chart.js, processing 5K+ daily data points and cutting analysis time by 65%.',
